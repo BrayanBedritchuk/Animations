@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/fragment_main__bt__animate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Alpha" />
+
+            <ImageView
+                android:id="@+id/fragment_main__img__alpha"
+                android:layout_width="281dp"
+                android:layout_height="181dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:src="@drawable/sky" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="16dp"
+                android:text="Rotation"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/fragment_main__img__rotation"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:src="@drawable/sun" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:text="X position"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/fragment_main__img__x"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:src="@drawable/sun" />
+
+            <TextView
+                android:id="@+id/fragment_main__img__x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Img X Info"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
